@@ -1,0 +1,14 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\jhayes\documents\visual studio 2013\projects\prepopulateddatabase.core\prepopulateddatabase.store\obj\x86\debug\intermediatexaml\prepopulateddatabase.store.exe" HashGuid="580d7893-efa1-164f-6bd4-14fae71b362a" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
+    <ReferenceAssembly PathName="c:\users\jhayes\documents\visual studio 2013\projects\prepopulateddatabase\prepopulateddatabasemvvmcross\packages\mvvmcross.hottuna.crosscore.3.2.1\lib\win81\cirrious.crosscore.dll" HashGuid="9af10fd6-4b4f-2165-00ce-d3c7265c853f" />
+    <ReferenceAssembly PathName="c:\users\jhayes\documents\visual studio 2013\projects\prepopulateddatabase\prepopulateddatabasemvvmcross\packages\mvvmcross.hottuna.crosscore.3.2.1\lib\win81\cirrious.crosscore.windowscommon.dll" HashGuid="33137c4e-381b-0828-9fcf-2ac3014e11f4" />
+    <ReferenceAssembly PathName="c:\users\jhayes\documents\visual studio 2013\projects\prepopulateddatabase\prepopulateddatabasemvvmcross\packages\mvvmcross.community.plugin.sqlite.3.1.1\lib\netcore45\cirrious.mvvmcross.community.plugins.sqlite.dll" HashGuid="5a8075af-082e-516b-01bc-3f55fd3998b4" />
+    <ReferenceAssembly PathName="c:\users\jhayes\documents\visual studio 2013\projects\prepopulateddatabase\prepopulateddatabasemvvmcross\packages\mvvmcross.community.plugin.sqlite.3.1.1\lib\netcore45\x86\cirrious.mvvmcross.community.plugins.sqlite.windowsstore.dll" HashGuid="4aeb1d51-1664-13a0-5ab3-b1f286d64f72" />
+    <ReferenceAssembly PathName="c:\users\jhayes\documents\visual studio 2013\projects\prepopulateddatabase\prepopulateddatabasemvvmcross\packages\mvvmcross.hottuna.mvvmcrosslibraries.3.2.1\lib\win81\cirrious.mvvmcross.dll" HashGuid="381ef74d-4332-b1e8-431a-0ba472c44c65" />
+    <ReferenceAssembly PathName="c:\users\jhayes\documents\visual studio 2013\projects\prepopulateddatabase\prepopulateddatabasemvvmcross\packages\mvvmcross.hottuna.crosscore.3.2.1\lib\win81\cirrious.mvvmcross.localization.dll" HashGuid="cc169ebc-6f40-271e-a9fe-e2fe4b3425db" />
+    <ReferenceAssembly PathName="c:\users\jhayes\documents\visual studio 2013\projects\prepopulateddatabase\prepopulateddatabasemvvmcross\packages\mvvmcross.hottuna.mvvmcrosslibraries.3.2.1\lib\win81\cirrious.mvvmcross.windowscommon.dll" HashGuid="ed90b092-b6cf-076c-8f4e-30ddf605375d" />
+    <ReferenceAssembly PathName="c:\users\jhayes\documents\visual studio 2013\projects\prepopulateddatabase\prepopulateddatabasemvvmcross\prepopulateddatabase.core\bin\debug\prepopulateddatabase.core.dll" HashGuid="c782f511-0a29-afce-1c14-e823d503307d" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

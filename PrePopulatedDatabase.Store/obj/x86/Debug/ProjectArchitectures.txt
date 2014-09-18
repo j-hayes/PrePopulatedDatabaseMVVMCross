@@ -1,0 +1,2 @@
+C:\Users\jhayes\Documents\Visual Studio 2013\Projects\PrePopulatedDatabase\PrePopulatedDatabase.Core\PrePopulatedDatabase.Core.csproj;neutral
+C:\Users\jhayes\Documents\Visual Studio 2013\Projects\PrePopulatedDatabase\PrePopulatedDatabase.Store\PrePopulatedDatabase.Store.csproj;x86

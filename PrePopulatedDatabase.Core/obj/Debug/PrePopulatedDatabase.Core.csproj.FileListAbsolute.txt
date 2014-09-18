@@ -1,0 +1,9 @@
+c:\users\jhayes\documents\visual studio 2013\Projects\PrePopulatedDatabase.Core\PrePopulatedDatabase.Core\bin\Debug\PrePopulatedDatabase.Core.dll
+c:\users\jhayes\documents\visual studio 2013\Projects\PrePopulatedDatabase.Core\PrePopulatedDatabase.Core\bin\Debug\PrePopulatedDatabase.Core.pdb
+c:\users\jhayes\documents\visual studio 2013\Projects\PrePopulatedDatabase.Core\PrePopulatedDatabase.Core\bin\Debug\Cirrious.CrossCore.dll
+c:\users\jhayes\documents\visual studio 2013\Projects\PrePopulatedDatabase.Core\PrePopulatedDatabase.Core\bin\Debug\Cirrious.MvvmCross.Community.Plugins.Sqlite.dll
+c:\users\jhayes\documents\visual studio 2013\Projects\PrePopulatedDatabase.Core\PrePopulatedDatabase.Core\bin\Debug\Cirrious.MvvmCross.dll
+c:\users\jhayes\documents\visual studio 2013\Projects\PrePopulatedDatabase.Core\PrePopulatedDatabase.Core\bin\Debug\Cirrious.MvvmCross.Localization.dll
+c:\users\jhayes\documents\visual studio 2013\Projects\PrePopulatedDatabase.Core\PrePopulatedDatabase.Core\obj\Debug\PrePopulatedDatabase.Core.dll
+c:\users\jhayes\documents\visual studio 2013\Projects\PrePopulatedDatabase.Core\PrePopulatedDatabase.Core\obj\Debug\PrePopulatedDatabase.Core.pdb
+C:\Users\jhayes\Documents\Visual Studio 2013\Projects\PrePopulatedDatabase.Core\PrePopulatedDatabase.Core\obj\Debug\PrePopulatedDatabase.Core.csprojResolveAssemblyReference.cache
