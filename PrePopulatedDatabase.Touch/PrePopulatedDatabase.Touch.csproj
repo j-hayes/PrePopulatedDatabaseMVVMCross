@@ -3,8 +3,6 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{00FAEBA1-5210-40FA-98FF-FA6F6FD625D6}</ProjectGuid>
     <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
@@ -80,11 +78,20 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Setup.cs" />
-    <Compile Include="Views\FirstView.cs" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Content Include="Resources\BowTiesDb.sqlite" />
     <None Include="packages.config" />
+    <Compile Include="Views\FirstView.cs" />
+    <Compile Include="Views\FirstView.designer.cs">
+      <DependentUpon>FirstView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BowTieViewCell.cs" />
+    <Compile Include="Views\BowTieViewCell.designer.cs">
+      <DependentUpon>BowTieViewCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SQLiteAsync.cs" />
+    <Compile Include="SQLite.cs" />
+    <Content Include="Assets\BowTiesDb.sqlite" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PrePopulatedDatabase.TouchViewController.designer.cs">
@@ -92,7 +99,9 @@
     </Compile>
     <Compile Include="PrePopulatedDatabase.TouchViewController.cs" />
     <InterfaceDefinition Include="MainStoryboard.storyboard" />
-    <BundleResource Include="Resources\Default-568h%402x.png" />
+    <InterfaceDefinition Include="Views\FirstView.xib" />
+    <InterfaceDefinition Include="Views\BowTieViewCell.xib" />
+    <BundleResource Include="Assets\Default-568h%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="AppDelegate.cs.txt" />
@@ -133,9 +142,12 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PrePopulatedDatabase.Core\PrePopulatedDatabase.Core.csproj">
-      <Project>{4b76817f-7503-4832-856a-9b0fc00eb284}</Project>
+      <Project>{4B76817F-7503-4832-856A-9B0FC00EB284}</Project>
       <Name>PrePopulatedDatabase.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Views\" />
+  </ItemGroup>
 </Project>

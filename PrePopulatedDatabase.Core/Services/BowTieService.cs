@@ -17,8 +17,9 @@ namespace PrePopulatedDatabase.Core.Services
         public BowTieService(ISQLiteConnectionFactory factory)
         {
             
-            _connection = factory.Create("BowTieDB.sqlite");
+            _connection = factory.Create("BowTiesDB.sqlite");
             _connection.CreateTable<BowTie>();
+
            
         }
 

@@ -28,31 +28,27 @@ namespace PrePopulatedDatabase.Touch
 
             /*Code To populate your Databsae*/
 
-            string dbname = "BowTieDb.sqlite";
-            string dbAssetLocation = "Resources\\" + dbname;
+            string dbname = "BowTiesDb.sqlite";
+            string dbAssetLocation = "Assets/" + dbname;
 
             string pathToDeployed = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), dbname);//This is the path to your Deployed Databse
-            string assetDatabasePath = Path.Combine(NSBundle.MainBundle.BundlePath, dbname); //This is the Path to your Resource Files availible to your apps
+			string assetDatabasePath = Path.Combine(NSBundle.MainBundle.BundlePath, dbAssetLocation); //This is the Path to your Resource Files availible to your apps
 
-
-            if (File.Exists(assetDatabasePath))
-            {
-                Console.WriteLine("Asset Database Content Does exist at path");
-
-
-                //File.Delete(pathToDeployed); // I use this line to make sure I get a fresh copy of the database on app load (not reccomended in production) 
-
-                if (!File.Exists(pathToDeployed))
-                {
-                    Console.WriteLine("DB file Didn't Exist on app");
-                    File.Copy(assetDatabasePath, pathToDeployed);
-
-                }
-                else
-                {
-                    Console.WriteLine("DB file Did Exist");
-                }
-            }
+			File.Delete (pathToDeployed);
+			if (File.Exists (assetDatabasePath)) {
+				Console.WriteLine ("Asset Database Content Does exist at path");
+				if (!File.Exists (pathToDeployed)) {
+					Console.WriteLine ("DB file Didn't Exist on app");
+					File.Copy (assetDatabasePath, pathToDeployed);
+				}
+				else {
+					Console.WriteLine ("DB file Did Exist");
+				}
+			} else 
+			
+			{
+				Console.WriteLine ("Db file does not exist in assets");
+			}
 
 
             return true;

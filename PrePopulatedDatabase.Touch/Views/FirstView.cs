@@ -4,28 +4,36 @@ using Cirrious.MvvmCross.Touch.Views;
 using MonoTouch.ObjCRuntime;
 using MonoTouch.UIKit;
 using MonoTouch.Foundation;
+using Cirrious.MvvmCross.Binding.Touch.Views;
+using PrePopulatedDatabase.Core.ViewModels;
 
 namespace PrePopulatedDatabase.Touch.Views
 {
     [Register("FirstView")]
-    public class FirstView : MvxViewController
+    public partial class FirstView : MvxViewController
     {
         public override void ViewDidLoad()
         {
-            View = new UIView(){ BackgroundColor = UIColor.White};
+			if (RespondsToSelector(new Selector("edgesForExtendedLayout")))
+				EdgesForExtendedLayout = UIRectEdge.None;
+
             base.ViewDidLoad();
 
-			// ios7 layout
-            if (RespondsToSelector(new Selector("edgesForExtendedLayout")))
-               EdgesForExtendedLayout = UIRectEdge.None;
-			   
-            var label = new UILabel(new RectangleF(10, 10, 300, 40));
-            Add(label);
-            var textField = new UITextField(new RectangleF(10, 50, 300, 40));
-            Add(textField);
+			var source = new MvxSimpleTableViewSource (BowTieTableView, BowTieViewCell.Key, BowTieViewCell.Key);
+			BowTieTableView.Source = source;
 
             var set = this.CreateBindingSet<FirstView, Core.ViewModels.FirstViewModel>();
-            set.Apply();
+
+			set.Bind (source).To (ViewModel => ViewModel.BowTies);
+			set.Bind (GetBowTiesButton).To (ViewModel => ViewModel.GetBowtiesCommand);
+
+
+			set.Apply();
+
+			//((FirstViewModel)this.ViewModel).GetBowtiesCommand.Execute(null);
+
+
+			BowTieTableView.ReloadData ();
         }
     }
 }
