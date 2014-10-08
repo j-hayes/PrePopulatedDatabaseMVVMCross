@@ -1,0 +1,47 @@
+# Version: 8.0.0.62 (8bd8158)
+# [first argument, ignore] # /Users/wmpdev/Projects/PrePopulatedDatabaseMVVMCross/PrePopulatedDatabase.Touch/bin/iPhoneSimulator/Debug/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/8.0.0.62/bin/mtouch \
+	-sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--cache \
+	/Users/wmpdev/Projects/PrePopulatedDatabaseMVVMCross/PrePopulatedDatabase.Touch/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--nomanifest \
+	--nosign \
+	-sim \
+	/Users/wmpdev/Projects/PrePopulatedDatabaseMVVMCross/PrePopulatedDatabase.Touch/bin/iPhoneSimulator/Debug/PrePopulatedDatabaseTouch.app \
+	-r \
+	/Users/wmpdev/Projects/PrePopulatedDatabaseMVVMCross/PrePopulatedDatabase.Core/bin/Debug/PrePopulatedDatabase.Core.dll \
+	-r \
+	/Users/wmpdev/Projects/PrePopulatedDatabaseMVVMCross/packages/MvvmCross.HotTuna.CrossCore.3.2.1/lib/MonoTouch/Cirrious.CrossCore.dll \
+	-r \
+	/Users/wmpdev/Projects/PrePopulatedDatabaseMVVMCross/packages/MvvmCross.HotTuna.CrossCore.3.2.1/lib/MonoTouch/Cirrious.CrossCore.Touch.dll \
+	-r \
+	/Users/wmpdev/Projects/PrePopulatedDatabaseMVVMCross/packages/MvvmCross.HotTuna.MvvmCrossLibraries.3.2.1/lib/MonoTouch/Cirrious.MvvmCross.dll \
+	-r \
+	/Users/wmpdev/Projects/PrePopulatedDatabaseMVVMCross/packages/MvvmCross.HotTuna.CrossCore.3.2.1/lib/MonoTouch/Cirrious.MvvmCross.Binding.dll \
+	-r \
+	/Users/wmpdev/Projects/PrePopulatedDatabaseMVVMCross/packages/MvvmCross.HotTuna.CrossCore.3.2.1/lib/MonoTouch/Cirrious.MvvmCross.Binding.Touch.dll \
+	-r \
+	/Users/wmpdev/Projects/PrePopulatedDatabaseMVVMCross/packages/MvvmCross.Community.Plugin.Sqlite.3.1.1/lib/MonoTouch/Cirrious.MvvmCross.Community.Plugins.Sqlite.dll \
+	-r \
+	/Users/wmpdev/Projects/PrePopulatedDatabaseMVVMCross/packages/MvvmCross.Community.Plugin.Sqlite.3.1.1/lib/MonoTouch/Cirrious.MvvmCross.Community.Plugins.Sqlite.Touch.dll \
+	-r \
+	/Users/wmpdev/Projects/PrePopulatedDatabaseMVVMCross/packages/MvvmCross.HotTuna.CrossCore.3.2.1/lib/MonoTouch/Cirrious.MvvmCross.Localization.dll \
+	-r \
+	/Users/wmpdev/Projects/PrePopulatedDatabaseMVVMCross/packages/MvvmCross.HotTuna.MvvmCrossLibraries.3.2.1/lib/MonoTouch/Cirrious.MvvmCross.Touch.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/monotouch.dll \
+	-debug \
+	-nolink \
+	-sdk \
+	7.0 \
+	-targetver \
+	7.0 \
+	--abi=i386 \
+	/Users/wmpdev/Projects/PrePopulatedDatabaseMVVMCross/PrePopulatedDatabase.Touch/bin/iPhoneSimulator/Debug/PrePopulatedDatabaseTouch.exe \

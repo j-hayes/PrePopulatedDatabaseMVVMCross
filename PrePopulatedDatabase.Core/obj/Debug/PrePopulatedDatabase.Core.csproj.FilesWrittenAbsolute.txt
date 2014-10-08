@@ -1,0 +1,10 @@
+/Users/wmpdev/Projects/PrePopulatedDatabaseMVVMCross/PrePopulatedDatabase.Core/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile259.AssemblyAttribute.cs
+/Users/wmpdev/Projects/PrePopulatedDatabaseMVVMCross/PrePopulatedDatabase.Core/bin/Debug/PrePopulatedDatabase.Core.dll.mdb
+/Users/wmpdev/Projects/PrePopulatedDatabaseMVVMCross/PrePopulatedDatabase.Core/bin/Debug/PrePopulatedDatabase.Core.dll
+/Users/wmpdev/Projects/PrePopulatedDatabaseMVVMCross/PrePopulatedDatabase.Core/obj/Debug/PrePopulatedDatabase.Core.dll
+/Users/wmpdev/Projects/PrePopulatedDatabaseMVVMCross/PrePopulatedDatabase.Core/obj/Debug/PrePopulatedDatabase.Core.dll.mdb
+/Users/wmpdev/Projects/PrePopulatedDatabaseMVVMCross/PrePopulatedDatabase.Core/bin/Debug/Cirrious.CrossCore.dll
+/Users/wmpdev/Projects/PrePopulatedDatabaseMVVMCross/PrePopulatedDatabase.Core/bin/Debug/Cirrious.MvvmCross.dll
+/Users/wmpdev/Projects/PrePopulatedDatabaseMVVMCross/PrePopulatedDatabase.Core/bin/Debug/Cirrious.MvvmCross.Community.Plugins.Sqlite.dll
+/Users/wmpdev/Projects/PrePopulatedDatabaseMVVMCross/PrePopulatedDatabase.Core/bin/Debug/Cirrious.MvvmCross.Localization.dll
+/Users/wmpdev/Projects/PrePopulatedDatabaseMVVMCross/PrePopulatedDatabase.Core/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs

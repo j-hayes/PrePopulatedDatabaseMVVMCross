@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F875C940000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331869320000000000000000 /* UIKit.framework */; };
+		111CFFC70000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AE0C650000000000000000 /* MapKit.framework */; };
+		2650685F0000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E174FD0000000000000000 /* Foundation.framework */; };
+		19BB4AA80000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4C57460000000000000000 /* CoreGraphics.framework */; };
+		3038F6E00000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6949C0C00000000000000000 /* Info.plist */; };
+		1836F8060000000000000000 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BC804A40000000000000000 /* MainStoryboard.storyboard */; };
+		661B8F000000000000000000 /* AppDelegate.cs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F2C58E00000000000000000 /* AppDelegate.cs.txt */; };
+		20D542E70000000000000000 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24664F850000000000000000 /* FirstView.xib */; };
+		3426B3A20000000000000000 /* BowTieViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B7C0400000000000000000 /* BowTieViewCell.xib */; };
+		15BC56D50000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 194D63730000000000000000 /* AppDelegate.h */; };
+		33C0ED6A0000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3751FA080000000000000000 /* AppDelegate.m */; };
+		563496400000000000000000 /* PrePopulatedDatabaseTouchViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 8F4560200000000000000000 /* PrePopulatedDatabaseTouchViewController.h */; };
+		137498C00000000000000000 /* PrePopulatedDatabaseTouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1705A55E0000000000000000 /* PrePopulatedDatabaseTouchViewController.m */; };
+		18B4BA1F0000000000000000 /* FirstView.h in Sources */ = {isa = PBXBuildFile; fileRef = 1C45C6BD0000000000000000 /* FirstView.h */; };
+		88E8FCA00000000000000000 /* FirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F9C6800000000000000000 /* FirstView.m */; };
+		2C062ADA0000000000000000 /* BowTieViewCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 2F9737780000000000000000 /* BowTieViewCell.h */; };
+		12DBEF6C0000000000000000 /* BowTieViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 166CFC0A0000000000000000 /* BowTieViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DCD04B90000000000000000 /* PrePopulatedDatabase.Touch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "PrePopulatedDatabase.Touch.app"; path = "PrePopulatedDatabase.Touch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		331869320000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		14AE0C650000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		29E174FD0000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		1D4C57460000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		6949C0C00000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		1BC804A40000000000000000 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "MainStoryboard.storyboard"; path = "MainStoryboard.storyboard"; sourceTree = "<group>"; };
+		9F2C58E00000000000000000 /* AppDelegate.cs.txt */ = {isa = PBXFileReference; name = "AppDelegate.cs.txt"; path = "AppDelegate.cs.txt"; sourceTree = "<group>"; };
+		24664F850000000000000000 /* FirstView.xib */ = {isa = PBXFileReference; name = "FirstView.xib"; path = "Views/FirstView.xib"; sourceTree = "<group>"; };
+		37B7C0400000000000000000 /* BowTieViewCell.xib */ = {isa = PBXFileReference; name = "BowTieViewCell.xib"; path = "Views/BowTieViewCell.xib"; sourceTree = "<group>"; };
+		194D63730000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		3751FA080000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		8F4560200000000000000000 /* PrePopulatedDatabaseTouchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PrePopulatedDatabaseTouchViewController.h"; path = "PrePopulatedDatabaseTouchViewController.h"; sourceTree = "<group>"; };
+		1705A55E0000000000000000 /* PrePopulatedDatabaseTouchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PrePopulatedDatabaseTouchViewController.m"; path = "PrePopulatedDatabaseTouchViewController.m"; sourceTree = "<group>"; };
+		1C45C6BD0000000000000000 /* FirstView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "FirstView.h"; path = "FirstView.h"; sourceTree = "<group>"; };
+		C1F9C6800000000000000000 /* FirstView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "FirstView.m"; path = "FirstView.m"; sourceTree = "<group>"; };
+		2F9737780000000000000000 /* BowTieViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "BowTieViewCell.h"; path = "BowTieViewCell.h"; sourceTree = "<group>"; };
+		166CFC0A0000000000000000 /* BowTieViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "BowTieViewCell.m"; path = "BowTieViewCell.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		336633890000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F875C940000000000000000 /* UIKit.framework in Frameworks */,
+				111CFFC70000000000000000 /* MapKit.framework in Frameworks */,
+				2650685F0000000000000000 /* Foundation.framework in Frameworks */,
+				19BB4AA80000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		137FA5170000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				3E1959630000000000000000 /* PrePopulatedDatabase.Touch */,
+				1E32CAF10000000000000000 /* Frameworks */,
+				8CC7F3D00000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CC7F3D00000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DCD04B90000000000000000 /* PrePopulatedDatabase.Touch.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		1E32CAF10000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				331869320000000000000000 /* UIKit.framework */,
+				14AE0C650000000000000000 /* MapKit.framework */,
+				29E174FD0000000000000000 /* Foundation.framework */,
+				1D4C57460000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		3E1959630000000000000000 /* PrePopulatedDatabase.Touch */ = {
+			isa = PBXGroup;
+			children = (
+				9F2C58E00000000000000000 /* AppDelegate.cs.txt */,
+				194D63730000000000000000 /* AppDelegate.h */,
+				2F9737780000000000000000 /* BowTieViewCell.h */,
+				1C45C6BD0000000000000000 /* FirstView.h */,
+				6949C0C00000000000000000 /* Info.plist */,
+				1BC804A40000000000000000 /* MainStoryboard.storyboard */,
+				8F4560200000000000000000 /* PrePopulatedDatabaseTouchViewController.h */,
+				2AEFBF6D0000000000000000 /* Supporting Files */,
+				39CC9B390000000000000000 /* Views */,
+			);
+			name = "PrePopulatedDatabase.Touch";
+			sourceTree = "<group>";
+		};
+		39CC9B390000000000000000 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				37B7C0400000000000000000 /* BowTieViewCell.xib */,
+				24664F850000000000000000 /* FirstView.xib */,
+			);
+			name = "Views";
+			sourceTree = "<group>";
+		};
+		2AEFBF6D0000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3751FA080000000000000000 /* AppDelegate.m */,
+				166CFC0A0000000000000000 /* BowTieViewCell.m */,
+				C1F9C6800000000000000000 /* FirstView.m */,
+				1705A55E0000000000000000 /* PrePopulatedDatabaseTouchViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D673E810000000000000000 /* PrePopulatedDatabase.Touch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1319DEDF0000000000000000 /* Build configuration list for PBXNativeTarget "PrePopulatedDatabase.Touch" */;
+			buildPhases = (
+				2190F4730000000000000000 /* Sources */,
+				336633890000000000000000 /* Frameworks */,
+				A7B93FE00000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PrePopulatedDatabase.Touch";
+			productName = "PrePopulatedDatabase.Touch";
+			productReference = 1DCD04B90000000000000000 /* PrePopulatedDatabase.Touch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12B418A70000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 866B90500000000000000000 /* Build configuration list for PBXProject "PrePopulatedDatabase.Touch" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 137FA5170000000000000000;
+			productRefGroup = 8CC7F3D00000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D673E810000000000000000 /* PrePopulatedDatabase.Touch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7B93FE00000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3038F6E00000000000000000 /* Info.plist in Resources */,
+				1836F8060000000000000000 /* MainStoryboard.storyboard in Resources */,
+				661B8F000000000000000000 /* AppDelegate.cs.txt in Resources */,
+				20D542E70000000000000000 /* FirstView.xib in Resources */,
+				3426B3A20000000000000000 /* BowTieViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2190F4730000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15BC56D50000000000000000 /* AppDelegate.h in Sources */,
+				33C0ED6A0000000000000000 /* AppDelegate.m in Sources */,
+				563496400000000000000000 /* PrePopulatedDatabaseTouchViewController.h in Sources */,
+				137498C00000000000000000 /* PrePopulatedDatabaseTouchViewController.m in Sources */,
+				18B4BA1F0000000000000000 /* FirstView.h in Sources */,
+				88E8FCA00000000000000000 /* FirstView.m in Sources */,
+				2C062ADA0000000000000000 /* BowTieViewCell.h in Sources */,
+				12DBEF6C0000000000000000 /* BowTieViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D8D68D60000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		3DB3932B0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "PrePopulatedDatabase.Touch";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		866B90500000000000000000 /* Build configuration list for PBXProject "PrePopulatedDatabase.Touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D8D68D60000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		1319DEDF0000000000000000 /* Build configuration list for PBXNativeTarget "PrePopulatedDatabase.Touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB3932B0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12B418A70000000000000000 /* Project object */;
+}

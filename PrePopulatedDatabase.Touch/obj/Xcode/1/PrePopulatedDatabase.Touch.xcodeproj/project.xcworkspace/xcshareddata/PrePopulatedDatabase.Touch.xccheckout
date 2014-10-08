@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B6D7D0E0-5EBF-4EA3-93F5-3276812E480B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PrePopulatedDatabase.Touch</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D4A4B80A-21CA-4D8D-AACA-D6F7D41E9C99</key>
+		<string>https://github.com/j-hayes/PrePopulatedDatabaseMVVMCross.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PrePopulatedDatabase.Touch/obj/Xcode/1/PrePopulatedDatabase.Touch.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D4A4B80A-21CA-4D8D-AACA-D6F7D41E9C99</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/j-hayes/PrePopulatedDatabaseMVVMCross.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D4A4B80A-21CA-4D8D-AACA-D6F7D41E9C99</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D4A4B80A-21CA-4D8D-AACA-D6F7D41E9C99</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PrePopulatedDatabaseMVVMCross</string>
+		</dict>
+	</array>
+</dict>
+</plist>
